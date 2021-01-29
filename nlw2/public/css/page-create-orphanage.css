@@ -1,0 +1,54 @@
+.page-create-orphanage{
+    display: flex;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+.map-container{
+    margin: 00 4rem;
+    
+
+}
+.map-container .leaflet-container{
+    border-radius: 20px 20px 0;
+
+}
+
+.map-container footer{
+    background: #f5f8fa;
+    border-radius: 0 0 20px 20px;
+    
+}
+.input-block label span{
+    font-size: 1.4rem;
+    color: #8fa7b3;
+    margin-left: 2.4rem;
+    line-height: 1.5;
+}
+
+.input-block input,
+.input-block textarea{
+    width: 100%;
+
+    background:#f5f8fa;
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+    color: #5c8599;
+
+}
+.input-block input:focus,
+.input-block textarea:focus{
+    border: 2px solid rgb(138, 137, 137);
+}
+
+.input-block input {
+    height: 6.4rem;
+    padding: 0 1.6rem;
+
+
+}
+
+
